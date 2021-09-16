@@ -67,3 +67,12 @@ p {
 #modellTable td {
 	border: 1px solid black;
 }
+
+.modellerImg {
+	width: 550px;
+	height: 200px;
+}
+
+#modellerBanner {
+	width: 30%;
+}
