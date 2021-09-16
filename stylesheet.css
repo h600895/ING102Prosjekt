@@ -4,14 +4,16 @@
 }
 
 body {
+<<<<<<< HEAD
 
+=======
+>>>>>>> eae7acfd20c1ef6aa939ada52224da87dee3a41f
 	background-color:lightgray;
 
 }
 
 nav ul {
 	list-style:none;
-	margin:0px;
 	padding-left:200px;
 	width:auto;
 	height:30px;
@@ -40,6 +42,10 @@ nav li a:hover {
 	color:lightblue;
 }
 
+#bilde {
+	width:100%;
+}
+
 main {
 	height: auto;
 	width: auto;
@@ -52,8 +58,13 @@ article {
 	margin-right:450px;
 }
 
+<<<<<<< HEAD
 p {
 
+=======
+
+p {
+>>>>>>> eae7acfd20c1ef6aa939ada52224da87dee3a41f
 	word-wrap: break-word;
 }
 
@@ -75,4 +86,8 @@ p {
 
 #modellerBanner {
 	width: 30%;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> eae7acfd20c1ef6aa939ada52224da87dee3a41f
