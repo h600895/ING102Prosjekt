@@ -1,19 +1,20 @@
+* {
+	font-family:Arial;
+	margin: 0;
+}
 
 body {
-	margin:0px;
 	background-color:lightgray;
 }
 
 nav ul {
 	list-style:none;
-	margin:0px;
 	padding-left:200px;
 	width:auto;
 	height:30px;
 	overflow:hidden;
 	background-color:lightblue;
 	padding-bottom:15px;
-	font-family:Arial;
 }
 
 nav li { /*avstand mellom tekst i nav meny*/
@@ -22,7 +23,6 @@ nav li { /*avstand mellom tekst i nav meny*/
 	margin-right:30px;
 	padding-right:30px;
 	padding-left:30px;
-	font-family:Arial;
 }
 
 nav li a {
@@ -53,23 +53,27 @@ article {
 	margin-right:450px;
 }
 
-article li {
-	font-family:Arial;
-}
-
-article ul {
-	font-family:Arial;
-}
-
-h1 {
-	font-family:Arial;
-}
-
-h3 {
-	font-family:Arial;
-}
 
 p {
-	font-family:Arial;
 	word-wrap: break-word;
+}
+
+#modellTable  {
+    border-collapse: collapse;
+    margin: 0;
+    text-align: center;
+	margin-top: 100px;
+	width: 80%;
+}
+#modellTable td {
+	border: 1px solid black;
+}
+
+.modellerImg {
+	width: 550px;
+	height: 200px;
+}
+
+#modellerBanner {
+	width: 30%;
 }
