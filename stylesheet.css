@@ -4,12 +4,7 @@
 }
 
 body {
-<<<<<<< HEAD
-
-=======
->>>>>>> eae7acfd20c1ef6aa939ada52224da87dee3a41f
 	background-color:lightgray;
-
 }
 
 nav ul {
@@ -58,13 +53,8 @@ article {
 	margin-right:450px;
 }
 
-<<<<<<< HEAD
 p {
 
-=======
-
-p {
->>>>>>> eae7acfd20c1ef6aa939ada52224da87dee3a41f
 	word-wrap: break-word;
 }
 
@@ -86,8 +76,4 @@ p {
 
 #modellerBanner {
 	width: 30%;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> eae7acfd20c1ef6aa939ada52224da87dee3a41f
