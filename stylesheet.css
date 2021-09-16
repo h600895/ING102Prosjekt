@@ -37,6 +37,10 @@ nav li a:hover {
 	color:lightblue;
 }
 
+#bilde {
+	width:100%;
+}
+
 main {
 	height:auto;
 	width:atuo;
