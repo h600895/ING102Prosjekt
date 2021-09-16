@@ -41,26 +41,31 @@ main {
 	height:auto;
 	width:atuo;
 	background-color:lightgrey;
-	
 }
 
 article {
 	margin-top:auto;
 	margin-left:450px;
+	margin-right:450px;
 }
 
-article li{
+article li {
 	font-family:Arial;
 }
 
-article ul{
+article ul {
 	font-family:Arial;
 }
 
-h1{
+h1 {
 	font-family:Arial;
 }
 
-h3{
+h3 {
 	font-family:Arial;
+}
+
+p {
+	font-family:Arial;
+	word-wrap: break-word;
 }
