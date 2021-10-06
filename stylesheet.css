@@ -1,3 +1,7 @@
+* {
+	font-family:Arial;
+}
+
 
 body {
 	margin:0px;
@@ -13,7 +17,7 @@ nav ul {
 	overflow:hidden;
 	background-color:lightblue;
 	padding-bottom:15px;
-	font-family:Arial;
+
 }
 
 nav li { /*avstand mellom tekst i nav meny*/
@@ -22,7 +26,7 @@ nav li { /*avstand mellom tekst i nav meny*/
 	margin-right:30px;
 	padding-right:30px;
 	padding-left:30px;
-	font-family:Arial;
+
 }
 
 nav li a {
@@ -45,7 +49,7 @@ nav li a:hover {
 
 main {
 	height:auto;
-	width:atuo;
+	width:auto;
 	background-color:lightgrey;
 }
 
@@ -55,23 +59,7 @@ article {
 	width:50%;
 }
 
-article li {
-	font-family:Arial;
-}
-
-article ul {
-	font-family:Arial;
-}
-
-h1 {
-	font-family:Arial;
-}
-
-h3 {
-	font-family:Arial;
-}
-
 p {
-	font-family:Arial;
+	
 	word-wrap: break-word;
 }
