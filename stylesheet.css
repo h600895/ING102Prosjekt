@@ -9,50 +9,82 @@ body {
 	background-color:lightgray;
 }
 
-nav {
+div {
+	margin:auto;
+	width:70%;
+	background-color:hotpink;
+	
+}
+#navHjem {
+	float:left;
+}
+
+nav{
+	width:100%;
+	height:100px;
+	background-color:lightblue;
+}
+
+nav ul li {
+	display:inline-block;
+	line-height:100px;
+	float:right;
+}
+
+nav ul li a {
+	display:block;
+	font-size:1.25em;
+	font-family:Arial;
+	color:white;
+	padding: 0 20px;
+	text-decoration:none;
+	
+
+/*nav {
 	width: 100%;
 	height: 100%;
 }
 
-/*nav ul {
+/*ul {
 	list-style:none;
 	margin: auto;
 	width:auto;
-	height:30px;
 	overflow:hidden;
 	background-color:lightblue;
-	padding-bottom:15px;
+	
 
-}*/
+}
 
-nav li { /*avstand mellom tekst i nav meny*/
+nav ul li { /*avstand mellom tekst i nav meny
 	display: inline-block;
-	line-height: 100px;
-
+	padding:50px 5%;
+	float: right;
+	line-height:100%;
+	list-style:none;
+	margin: auto;
+	width:auto;
+	overflow:hidden;
+	background-color:lightblue;
 }
 
 nav li a {
-	/*
+	
 	display:block;
 	text-decoration:none;
-	color:darkblue;
-	padding:15px;
-	margin:auto;
-	width:100%;*/
+	width:100%;
 
-	display: block;
+	
     font-size: 1.25em;
     font-family: 'Heebo', sans-serif;
     color: #fff;
-    padding: 0 20px;
+    padding:0 20%;
+}*/
+
+ul li a:hover {
+	background-color:green;
 }
 
-nav li a:hover {
-	background-color:darkblue;
-	color:lightblue;
-}
-
-#bilde {
+.bilde {
 	width:100%;
 }
 
@@ -65,9 +97,13 @@ main {
 article {
 	margin-top:auto;
 	margin:auto;
-	width:50%;
+	padding: 0 15%;
 }
 
 p {
 	word-wrap: break-word;
+}
+
+footer {
+	
 }
