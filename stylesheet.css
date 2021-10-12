@@ -19,7 +19,7 @@ div {
 	float:left;
 }
 
-nav{
+/*nav{
 	width:100%;
 	height:100px;
 	background-color:lightblue;
@@ -39,7 +39,7 @@ nav ul li a {
 	padding: 0 20px;
 	text-decoration:none;
 	
-
+*/
 /*nav {
 	width: 100%;
 	height: 100%;
@@ -79,9 +79,27 @@ nav li a {
     color: #fff;
     padding:0 20%;
 }*/
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
 
-ul li a:hover {
-	background-color:green;
+nav li {
+  float: left;
+}
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #111;
 }
 
 .bilde {
