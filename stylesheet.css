@@ -12,7 +12,7 @@ body {
 div {
 	margin:auto;
 	width:70%;
-	background-color:hotpink;
+	background-color:#fff;
 	
 }
 #navHjem {
@@ -88,14 +88,15 @@ nav ul {
 }
 
 nav li {
-  float: left;
+  float: right;
 }
 nav li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 30px 30px;
   text-decoration: none;
+  font-size: 1.25em;
 }
 
 nav li a:hover {
