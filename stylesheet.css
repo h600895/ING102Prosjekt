@@ -13,72 +13,13 @@ div {
 	margin:auto;
 	width:70%;
 	background-color:#fff;
+	margin-top: 83px;
 	
 }
 #navHjem {
 	float:left;
 }
 
-/*nav{
-	width:100%;
-	height:100px;
-	background-color:lightblue;
-}
-
-nav ul li {
-	display:inline-block;
-	line-height:100px;
-	float:right;
-}
-
-nav ul li a {
-	display:block;
-	font-size:1.25em;
-	font-family:Arial;
-	color:white;
-	padding: 0 20px;
-	text-decoration:none;
-	
-*/
-/*nav {
-	width: 100%;
-	height: 100%;
-}
-
-/*ul {
-	list-style:none;
-	margin: auto;
-	width:auto;
-	overflow:hidden;
-	background-color:lightblue;
-	
-
-}
-
-nav ul li { /*avstand mellom tekst i nav meny
-	display: inline-block;
-	padding:50px 5%;
-	float: right;
-	line-height:100%;
-	list-style:none;
-	margin: auto;
-	width:auto;
-	overflow:hidden;
-	background-color:lightblue;
-}
-
-nav li a {
-	
-	display:block;
-	text-decoration:none;
-	width:100%;
-
-	
-    font-size: 1.25em;
-    font-family: 'Heebo', sans-serif;
-    color: #fff;
-    padding:0 20%;
-}*/
 nav ul {
   list-style-type: none;
   margin: 0;
