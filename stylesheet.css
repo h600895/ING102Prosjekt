@@ -14,7 +14,7 @@ div {
 	width:70%;
 	background-color:#fff;
 	margin-top: 83px;
-	
+
 }
 #navHjem {
 	float:left;
@@ -61,12 +61,13 @@ article {
 	margin-top:auto;
 	margin:auto;
 	padding: 0 15%;
+	padding-bottom: 20px;
 }
 
 p {
 	word-wrap: break-word;
 }
 
-footer {
-	
+h3 {
+	margin: 5px 0;
 }
