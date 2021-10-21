@@ -66,6 +66,7 @@ article {
 
 p {
 	word-wrap: break-word;
+	padding: 2px 0;
 }
 
 h3 {
