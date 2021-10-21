@@ -1,23 +1,24 @@
 * {
-	font-family:Arial;
+	font-family: Arial;
 	margin: 0;
 	padding: 0;
+	border-spacing: 0;
 }
 
 
 body {
-	background-color:lightgray;
+	background-color: lightgray;
 }
 
 div {
-	margin:auto;
-	width:70%;
-	background-color:#fff;
+	margin: auto;
+	width: 70%;
+	background-color: #fff;
 	margin-top: 83px;
 
 }
 #navHjem {
-	float:left;
+	float: left;
 }
 
 nav ul {
@@ -48,18 +49,18 @@ nav li a:hover {
 }
 
 .bilde {
-	width:100%;
+	width: 100%;
 }
 
 main {
-	height:auto;
-	width:auto;
-	background-color:lightgrey;
+	height: auto;
+	width: auto;
+	background-color: lightgrey;
 }
 
 article {
-	margin-top:auto;
-	margin:auto;
+	margin-top: auto;
+	margin: auto;
 	padding: 0 15%;
 	padding-bottom: 20px;
 }
@@ -72,4 +73,18 @@ p { /*Lagt til padding på p i steden for aa bruke <br>, folger universell utfor
 
 h3 {
 	margin: 5px 0;
+}
+
+table {
+	border-spacing: 0;
+}
+
+#medlemTabell th, td {
+	border: 1px solid #000;
+	text-align: center;
+	font-size: 1em;
+	padding: 10px;
+	
+	
+	
 }
