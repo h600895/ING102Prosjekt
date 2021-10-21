@@ -65,9 +65,10 @@ article {
 	padding-bottom: 20px;
 }
 
-p {
+p { /*Lagt til padding på p i steden for aa bruke <br>, folger universell utforming*/
 	word-wrap: break-word;
-	padding: 2px 0;
+	padding-top: 6px;
+	padding-bottom: 12px;
 }
 
 h3 {
